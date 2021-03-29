@@ -19,7 +19,7 @@ function MarsObject({object}) {
         <p>year: {object.year}</p> 
         <p>agency: {object.agency}</p> 
         <p>mission: {object.mission}</p> 
-        <p>mass(kg): {object.year}</p> 
+        <p>mass(kg): {object.mass}</p> 
         <p>type: {object.type}</p> 
       </div>
       }
