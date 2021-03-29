@@ -68,6 +68,10 @@ body {
   
       .App {
 
+        h1 {
+          font-size: 3rem;
+        }
+
         .marsObjects {
           display: flex;
           flex-direction: column;

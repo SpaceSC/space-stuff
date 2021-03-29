@@ -85,6 +85,9 @@ body #root .App #loading {
     padding-top: 10%;
     font-size: 1.2rem;
   }
+  body #root .App h1 {
+    font-size: 3rem;
+  }
   body #root .App .marsObjects {
     display: -webkit-box;
     display: -ms-flexbox;
