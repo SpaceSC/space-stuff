@@ -3,7 +3,8 @@ const app = express()
 const port = 5000
 
 app.get('/', (req, res) => {
-  res.send('Server is running!')
+  //res.send('Server is running!')
+  res.sendFile(__dirname + '/data/objects.json')
 })
 
 app.listen(port, () => {
