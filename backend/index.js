@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 app.get('/', (req, res) => {
-  //res.send('Server is running!')
+  // sendFile sets Content-Type response HTTP header field based on file extension
   res.sendFile(__dirname + '/data/objects.json')
 })
 

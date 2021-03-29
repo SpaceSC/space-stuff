@@ -1,9 +1,9 @@
 import React from 'react'
 
-function MarsObject() {
+function MarsObject({object}) {
   return (
     <div>
-      
+      {object}
     </div>
   )
 }
