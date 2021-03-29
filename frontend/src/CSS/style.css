@@ -26,7 +26,6 @@ body {
   background-color: #000;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
   padding: 20px;
 }
 
@@ -40,6 +39,14 @@ body #root .App {
 }
 
 body #root .App .marsObjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
   height: 100%;
 }
 
@@ -50,7 +57,7 @@ body #root .App .marsObjects .showMoreBtn {
   outline: none;
   margin-left: 5px;
   font-weight: 500;
-  font-size: 1.4 rem;
+  font-size: 1.2rem;
 }
 
 body #root .App .marsObjects .showMoreBtn:hover {
@@ -76,6 +83,27 @@ body #root .App #loading {
   body {
     padding-left: 20%;
     padding-top: 10%;
+    font-size: 1.2rem;
+  }
+  body #root .App .marsObjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+    height: 100%;
+  }
+  body #root .App .marsObjects .showMoreBtn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 1.2rem;
   }
   body #root .App #loading {
     background-image: url("../img/loading.gif");
