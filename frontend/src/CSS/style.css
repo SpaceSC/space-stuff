@@ -26,6 +26,7 @@ body {
   background-color: #000;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
   padding: 20px;
 }
 
@@ -40,6 +41,24 @@ body #root .App {
 
 body #root .App .marsObjects {
   height: 100%;
+}
+
+body #root .App .marsObjects .showMoreBtn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+body #root .App .marsObjects .showMoreBtn:hover {
+  color: #8ae0de;
+  cursor: pointer;
+}
+
+body #root .App .marsObjects .moreInfo {
+  font-size: 0.8rem;
+  padding-left: 30px;
 }
 
 body #root .App #loading {

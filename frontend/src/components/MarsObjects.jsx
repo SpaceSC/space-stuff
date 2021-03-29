@@ -7,7 +7,7 @@ function MarsObjects({objectsOnMars}) {
     <div className="marsObjects">
       <h2>Artificial objects on Mars</h2>
       {console.log(objectsOnMars)}
-      {objectsOnMars.map((obj) => (<MarsObject key={obj.object} object={obj.object}/>))}
+      {objectsOnMars.map((obj) => (<MarsObject key={obj.object} object={obj}/>))}
     </div>
   )
 }
