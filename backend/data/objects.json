@@ -1,0 +1,58 @@
+{
+  "rovers": [
+    {
+      "year": "1997",
+      "agency": "NASA",
+      "mission": "Mars Pathfinder",
+      "object": "Sojourner",
+      "mass": 11.5,
+      "rover": true,
+      "image": ""
+    },
+    {
+      "year": "2004",
+      "agency": "NASA",
+      "mission": "Mars Exploration Rover",
+      "object": "Spirit",
+      "mass": 185,
+      "rover": true,
+      "image": ""
+    },
+    {
+      "year": "2004",
+      "agency": "NASA",
+      "mission": "Mars Exploration Rover",
+      "object": "Opportunity",
+      "mass": 185,
+      "rover": true,
+      "image": ""
+    },
+    {
+      "year": "2012",
+      "agency": "NASA",
+      "mission": "Mars Science Laboratory",
+      "object": "Curiosity",
+      "mass": 900,
+      "rover": true,
+      "image": ""
+    },
+    {
+      "year": "2021",
+      "agency": "NASA",
+      "mission": "Mars 2020",
+      "object": "Perseverance",
+      "mass": 1024,
+      "rover": true,
+      "image": ""
+    },
+    {
+      "year": "2021",
+      "agency": "NASA",
+      "mission": "Mars 2020",
+      "object": "Ingenuity",
+      "mass": 1.8,
+      "rover": false,
+      "image": ""
+    }
+  ]
+}
