@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
 import MarsObjects from './components/MarsObjects';
+import LoadingMask from './components/LoadingMask';
 
 function App() {
   const [objectsOnMars, setObjectsOnMars] = useState([]);
@@ -12,9 +13,9 @@ function App() {
     .then(res => res.json())
     .then(
       (result) => {
-        //console.log(result);
+        setTimeout(function () {
         setObjectsOnMars(result.marsObjects);
-        //console.log(objectsOnMars);
+        }, 5000);
       },
       (error) => {
         console.log(error);
@@ -25,7 +26,8 @@ function App() {
   return (
     <div className="App">
       <h1>Space Stuff</h1>
-      <MarsObjects objectsOnMars={objectsOnMars}/>
+      { objectsOnMars.length===0 ? <LoadingMask /> : <MarsObjects objectsOnMars={objectsOnMars}/>}
+      
     </div>
   );
 }

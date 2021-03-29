@@ -2,8 +2,7 @@ import React from 'react'
 
 function LoadingMask() {
   return (
-    <div>
-      <img src="../img/loading.gif" alt="Loading"/>
+    <div id="loading">
     </div>
   )
 }
