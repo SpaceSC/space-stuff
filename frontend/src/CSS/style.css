@@ -49,6 +49,8 @@ body #root .App .marsObjects .showMoreBtn {
   border: none;
   outline: none;
   margin-left: 5px;
+  font-weight: 500;
+  font-size: 1.4 rem;
 }
 
 body #root .App .marsObjects .showMoreBtn:hover {
