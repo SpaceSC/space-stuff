@@ -1,4 +1,4 @@
-import './App.css';
+import './CSS/style.css';
 import React, { useState, useEffect } from 'react'
 import MarsObjects from './components/MarsObjects';
 import LoadingMask from './components/LoadingMask';

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import 'variables';
+@import 'reset';
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $black;
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+
+  #root {
+    height: 100%;
+    width: 90%;
+
+    .App {
+      height: 100%;
+
+      .marsObjects {
+        height: 100%;
+      }
+
+      #loading {
+        height: 400px;
+        width: auto;
+        background-image: url("../img/loadingSmall.gif");
+        background-repeat: no-repeat;
+        object-fit: contain;
+      } 
+    }
+  } 
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    padding-left: 20%;
+    padding-top: 10%;
+  
+    #root {
+  
+      .App {
+  
+        #loading {
+          background-image: url("../img/loading.gif");
+        } 
+      }
+    } 
+  }
+}
+
+
+
+
+
+
