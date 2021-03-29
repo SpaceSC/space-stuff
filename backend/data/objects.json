@@ -6,7 +6,7 @@
       "mission": "Mars Pathfinder",
       "object": "Sojourner",
       "mass": 11.5,
-      "rover": true,
+      "type": "rover",
       "image": ""
     },
     {
@@ -15,7 +15,7 @@
       "mission": "Mars Exploration Rover",
       "object": "Spirit",
       "mass": 185,
-      "rover": true,
+      "type": "rover",
       "image": ""
     },
     {
@@ -24,7 +24,7 @@
       "mission": "Mars Exploration Rover",
       "object": "Opportunity",
       "mass": 185,
-      "rover": true,
+      "type": "rover",
       "image": ""
     },
     {
@@ -33,7 +33,7 @@
       "mission": "Mars Science Laboratory",
       "object": "Curiosity",
       "mass": 900,
-      "rover": true,
+      "type": "rover",
       "image": ""
     },
     {
@@ -42,7 +42,7 @@
       "mission": "Mars 2020",
       "object": "Perseverance",
       "mass": 1024,
-      "rover": true,
+      "type": "rover",
       "image": ""
     },
     {
@@ -51,7 +51,7 @@
       "mission": "Mars 2020",
       "object": "Ingenuity",
       "mass": 1.8,
-      "rover": false,
+      "type": "helicopter",
       "image": ""
     }
   ]
