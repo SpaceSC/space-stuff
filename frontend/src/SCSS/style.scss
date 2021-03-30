@@ -41,6 +41,24 @@ body {
           }
         }
 
+        .radios {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 5px;
+
+          .radioTop,
+          .radioBottom {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+        }
+
+        .filtered {
+          margin-top: 15px;
+        }
+
         .moreInfo {
           font-size: 0.8rem;
           padding-left: 30px;
@@ -75,7 +93,7 @@ body {
         .marsObjects {
           display: flex;
           flex-direction: column;
-          gap: 5px;
+          gap: 10px;
           height: 100%;
   
           .showMoreBtn {
@@ -86,12 +104,6 @@ body {
             margin-left: 5px;
             font-weight: 500;
             font-size: 1.2rem;
-          }
-
-          .radios {
-            display: flex;
-            align-items: center;
-            gap: 5px;
           }
         }  
   
