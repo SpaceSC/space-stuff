@@ -7,7 +7,8 @@
       "object": "Sojourner",
       "mass": 11.5,
       "type": "rover",
-      "image": "sojourner.jpg"
+      "image": "sojourner.jpg",
+      "inOperation": false
     },
     {
       "year": "2004",
@@ -16,7 +17,8 @@
       "object": "Spirit",
       "mass": 185,
       "type": "rover",
-      "image": "spirit.jpg"
+      "image": "spirit.jpg",
+      "inOperation": false
     },
     {
       "year": "2004",
@@ -25,7 +27,8 @@
       "object": "Opportunity",
       "mass": 185,
       "type": "rover",
-      "image": "opportunity.jpg"
+      "image": "opportunity.jpg",
+      "inOperation": false
     },
     {
       "year": "2012",
@@ -34,7 +37,8 @@
       "object": "Curiosity",
       "mass": 900,
       "type": "rover",
-      "image": "curiosity.jpg"
+      "image": "curiosity.jpg",
+      "inOperation": true
     },
     {
       "year": "2021",
@@ -43,7 +47,8 @@
       "object": "Perseverance",
       "mass": 1024,
       "type": "rover",
-      "image": "perseverance.jpg"
+      "image": "perseverance.jpg",
+      "inOperation": true
     },
     {
       "year": "2021",
@@ -52,7 +57,8 @@
       "object": "Ingenuity",
       "mass": 1.8,
       "type": "helicopter",
-      "image": "ingenuity.jpg"
+      "image": "ingenuity.jpg",
+      "inOperation": true
     }
   ]
 }
