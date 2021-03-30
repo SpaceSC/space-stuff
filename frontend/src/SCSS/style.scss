@@ -87,6 +87,12 @@ body {
             font-weight: 500;
             font-size: 1.2rem;
           }
+
+          .radios {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
         }  
   
         #loading {

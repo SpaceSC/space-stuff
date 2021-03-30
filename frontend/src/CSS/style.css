@@ -108,6 +108,15 @@ body #root .App #loading {
     font-weight: 500;
     font-size: 1.2rem;
   }
+  body #root .App .marsObjects .radios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  }
   body #root .App #loading {
     background-image: url("../img/loading.gif");
   }
