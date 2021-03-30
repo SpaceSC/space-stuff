@@ -8,7 +8,7 @@
       "mass": 11.5,
       "type": "rover",
       "image": "sojourner.jpg",
-      "inOperation": "false"
+      "inOperation": false
     },
     {
       "year": "2004",
@@ -18,7 +18,7 @@
       "mass": 185,
       "type": "rover",
       "image": "spirit.jpg",
-      "inOperation": "false"
+      "inOperation": false
     },
     {
       "year": "2004",
@@ -28,7 +28,7 @@
       "mass": 185,
       "type": "rover",
       "image": "opportunity.jpg",
-      "inOperation": "false"
+      "inOperation": false
     },
     {
       "year": "2012",
@@ -38,7 +38,7 @@
       "mass": 900,
       "type": "rover",
       "image": "curiosity.jpg",
-      "inOperation": "true"
+      "inOperation": true
     },
     {
       "year": "2021",
@@ -48,7 +48,7 @@
       "mass": 1024,
       "type": "rover",
       "image": "perseverance.jpg",
-      "inOperation": "true"
+      "inOperation": true
     },
     {
       "year": "2021",
@@ -58,7 +58,7 @@
       "mass": 1.8,
       "type": "helicopter",
       "image": "ingenuity.jpg",
-      "inOperation": "true"
+      "inOperation": true
     }
   ]
 }

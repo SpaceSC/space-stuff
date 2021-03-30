@@ -24,7 +24,7 @@ function MarsObjects({objectsOnMars}) {
     if(operationSelected==="all"){
       return objectOnMars;
     } else {
-     return objectOnMars.inOperation===operationSelected;
+     return objectOnMars.inOperation.toString()===operationSelected;
      }
   }
 
