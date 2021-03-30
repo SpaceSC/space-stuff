@@ -15,7 +15,7 @@ function App() {
       (result) => {
         setTimeout(function () {
         setObjectsOnMars(result.marsObjects);
-        }, 5000);
+        }, 1000);
       },
       (error) => {
         console.log(error);
