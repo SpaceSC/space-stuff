@@ -90,6 +90,21 @@ body #root .App .marsObjects .radios .radioBottom {
   gap: 5px;
 }
 
+body #root .App .marsObjects .radios .radioTop input[type='radio']:checked:after,
+body #root .App .marsObjects .radios .radioBottom input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #8ae0de;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
 body #root .App .marsObjects .filtered {
   margin-top: 15px;
 }
