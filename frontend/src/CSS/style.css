@@ -103,6 +103,7 @@ body #root .App .marsObjects .radios .radioBottom input[type='radio']:checked:af
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
+  cursor: pointer;
 }
 
 body #root .App .marsObjects .filtered {
