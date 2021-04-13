@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/CORS-2.8.5-purple)
 ![](https://img.shields.io/badge/Sass-1.32.8-pink)
 
-Space Stuff is a school project with frontend and backend features. 
+Space Stuff is a school project with frontend and backend features.  
 This interactive app lets you learn more about some artificial objects on Mars.
 
 ## Technologies
