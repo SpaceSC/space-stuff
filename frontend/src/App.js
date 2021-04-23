@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="App">
       <h1>Space Stuff</h1>
-      {/* Conditional rendering: if objectsOnMars.length is 0, render LoadingMask, otherwise render MarsObjects component*/}
-      { objectsOnMars.length===0 ? <LoadingMask /> : <MarsObjects objectsOnMars={objectsOnMars}/>} {/* Pass down objectsOnMars to MarsObjects component*/}
+      {/* Conditional rendering: if objectsOnMars.length is 0, render LoadingMask, otherwise render MarsObjects component */}
+      { objectsOnMars.length===0 ? <LoadingMask /> : <MarsObjects objectsOnMars={objectsOnMars}/>} {/* Pass down objectsOnMars to MarsObjects component */}
     </div>
   );
 }
