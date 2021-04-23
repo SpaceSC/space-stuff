@@ -53,6 +53,10 @@ body {
             align-items: center;
             gap: 5px;
 
+            input[type='radio'] {
+              cursor: pointer;
+            }
+
             input[type='radio']:checked:after {
               width: 15px;
               height: 15px;

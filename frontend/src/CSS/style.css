@@ -90,6 +90,11 @@ body #root .App .marsObjects .radios .radioBottom {
   gap: 5px;
 }
 
+body #root .App .marsObjects .radios .radioTop input[type='radio'],
+body #root .App .marsObjects .radios .radioBottom input[type='radio'] {
+  cursor: pointer;
+}
+
 body #root .App .marsObjects .radios .radioTop input[type='radio']:checked:after,
 body #root .App .marsObjects .radios .radioBottom input[type='radio']:checked:after {
   width: 15px;

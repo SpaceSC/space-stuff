@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     fetch("http://localhost:5000/", {
-      credentials: "include",
+      credentials: "include", // Send user credentials (cookies, basic http auth, etc.), even for cross-origin calls
     })
     .then(res => res.json())
     .then(
