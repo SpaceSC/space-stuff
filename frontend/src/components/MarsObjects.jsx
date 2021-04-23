@@ -9,31 +9,31 @@ function MarsObjects({objectsOnMars}) { // Destructuring props
 
   // Set typeSelected and check button according to selected radio button
   function setObjectType(e){
-    setTypeSelected(e.target.value);
-    e.target.checked="checked";
+    setTypeSelected(e.target.value); // Set typeSelected to the value of the selected radio button
+    e.target.checked = "checked"; // Check selected radio button
   }
 
   // Set operationSelected and check button according to selected radio button
   function setObjectOperation(e){
-    setOperationSelected(e.target.value);
-    e.target.checked="checked";
+    setOperationSelected(e.target.value); // Set operationSelected to the value of the selected radio button
+    e.target.checked = "checked"; // Check selected radio button
   }
 
   // Filter objectsOnMars by type
   function checkObjectType(objectOnMars){
-   if(typeSelected==="all"){
+   if(typeSelected === "all"){ // If typeSelected is "all", return every objectOnMars 
      return objectOnMars;
    } else {
-    return objectOnMars.type===typeSelected;
+    return objectOnMars.type === typeSelected; // Return every objectOnMars that has the same type as the typeSelected
     }
   }
 
   // Filter by 'in operation'
   function checkObjectOperation(objectOnMars){
-    if(operationSelected==="all"){
+    if(operationSelected === "all"){ // If operationSelected is "all", return every objectOnMars
       return objectOnMars;
     } else {
-     return objectOnMars.inOperation.toString()===operationSelected;
+     return objectOnMars.inOperation.toString() === operationSelected; // Make inOperation values strings with .toString(), return every objectOnMars that has the same inOperation as the operationSelected
      }
   }
 
