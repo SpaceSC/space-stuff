@@ -1,17 +1,25 @@
 import React, { useState } from 'react'
 import MarsObject from './MarsObject'
 
-function MarsObjects({objectsOnMars}) {
+function MarsObjects({objectsOnMars}) { // Destructuring props
 
+  // Set initial states for filters
   const [typeSelected, setTypeSelected] = useState("all");
   const [operationSelected, setOperationSelected] = useState("all");
 
-
+  // Set typeSelected and check button according to selected radio button
   function setObjectType(e){
     setTypeSelected(e.target.value);
     e.target.checked="checked";
   }
 
+  // Set operationSelected and check button according to selected radio button
+  function setObjectOperation(e){
+    setOperationSelected(e.target.value);
+    e.target.checked="checked";
+  }
+
+  // Filter objectsOnMars by type
   function checkObjectType(objectOnMars){
    if(typeSelected==="all"){
      return objectOnMars;
@@ -20,17 +28,13 @@ function MarsObjects({objectsOnMars}) {
     }
   }
 
+  // Filter by 'in operation'
   function checkObjectOperation(objectOnMars){
     if(operationSelected==="all"){
       return objectOnMars;
     } else {
      return objectOnMars.inOperation.toString()===operationSelected;
      }
-  }
-
-  function setObjectOperation(e){
-    setOperationSelected(e.target.value);
-    e.target.checked="checked";
   }
 
   return (
@@ -57,6 +61,7 @@ function MarsObjects({objectsOnMars}) {
         </div>
       </div>
 
+      {/* Filter with checkObjectType and checkObjectOperation functions, then map through the results to render MarsObject components*/}
       <div className="filtered">{objectsOnMars.filter(checkObjectType).filter(checkObjectOperation).map(obj => (<MarsObject key={obj.object} object={obj}/>))}</div>
     </div>
   )
