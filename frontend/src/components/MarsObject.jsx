@@ -5,10 +5,10 @@ function MarsObject({object}) {
   const [showMore, setShowMore] = useState(false); // Set initial state for showing details
   const [more, setMore] = useState("+"); // Set initial state for what is to be written on button
 
-  // On each click event, set showMore to the opposite if its current state and set button text
+  // On each click event, call this function
   function moreInfo(){
-    setShowMore(!showMore); 
-    more==="+" ? setMore("-") : setMore("+");
+    setShowMore(!showMore); // Set showMore to the opposite if its current state
+    more === "+" ? setMore("-") : setMore("+"); // Set button text
   }
 
   return (
